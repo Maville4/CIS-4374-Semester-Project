@@ -34,61 +34,111 @@ NFR3: System must have an uptime of 99.99%
 
 5. Use Case Examples 
 
-Title: Reserving a parking spot
+1. Title: Reserving a parking spot
   1. Customer selects parking spot number
   2. Parking spot is added to cart
-  3. Customer is sent to checkout page 
+  3. Customer is sent to the checkout page 
   4. Customer completes purchase.
 
-Title: Customer signs up for email updates
+2. Title: Customer signs up for email updates
   1. Customer signs in
-  2. Customer clicks "account"
-  3. Customer clicks "email preferences" 
+  2. Customer clicks "Account"
+  3. Customer clicks "Email Preferences" 
   4. Customer agrees to receive email updates 
 
-Title: Customer Resets Password
-  1. Customer clicks "forgot password"
+3. Title: Customer Resets Password
+  1. Customer clicks "Forgot Password"
   2. Customer fills out email 
   3. Customer inserts old and new password
   4. Customer confirms new password
 
-Title: Customer inserts new payment method
+4. Title: Customer inserts new payment method
   1. Customer signs in
-  2. Customer clicks "account"
-  3. Customer clicks "add new payment method"
+  2. Customer clicks "Account"
+  3. Customer clicks "Add new payment method"
   4. Customer fills out new payment details
-  5. Customer clicks "save" 
+  5. Customer clicks "Save" 
 
-Title: Customer deletes old payment method
+5. Title: Customer deletes old payment method
   1. Customer signs in
-  2. Customer clicks "account"
-  3. Customer clicks "remove payment method"
-  4. Customer clicks save
+  2. Customer clicks "Account"
+  3. Customer clicks "Remove payment method"
+  4. Customer clicks "Save"
 
-Title: Adding time to reservation from app
+6. Title: Adding time to reservation from app
   1. Customer signs in
   2. Customer clicks "Reservations"
   3. Customer clicks on their current reservation
-  4. Customer clicks "add time"
-  5. Customer is taken to checkout page
+  4. Customer clicks "Add Time"
+  5. Customer is taken to the checkout page
   6. Customer completes purchase
 
-Title: Customer is checking out via Kiosk
+7. Title: Customer is checking out via Kiosk
   1. Customer walks up already with ticket in hand
   2. Customer inserts ticket
   3. Kiosk displays purchase amount with time, location, and date
   4. Customer presents payment method
   5. Customer completes purchase 
 
-Title: Customer wants to see available spaces for reservation
+8. Title: Customer wants to see available spaces for reservation
   1. Customer signs in
-  2. Customer clicks "start reservation"
+  2. Customer clicks "Start Reservation"
   3. Customer is presented with all parking spots available in green and unavailable in red on a map
 
-Title: Employee wants to check reports for the month
+9. Title: Employee wants to check reports for the month
   1. Employee signs in with their company ID and password
-  2. Employee clicks "reports"
-  3. Employee is brought to reports page
-  4. Employee clicks "filter"
+  2. Employee clicks "Reports"
+  3. Employee is brought to the reports page
+  4. Employee clicks "Filter"
   5. Employee clicks on "Monthly" 
-  6. Reports for that month are filtered for the employee to overlook
+  6. Reports for that month are filtered for the employee to review
+
+10. Title: Customer wants to purchase monthly pass
+  1. Customer signs in
+  2. Customer clicks "Account"
+  3. Customer is then brought to the "Accounts" page
+  4. Customer clicks "Purchase Monthly Pass"
+  5. Customer is brought to the checkout page
+  6. Customer completes purchase 
+
+11. Title: Customer wants to cancel monthly pass
+  1. Customer signs in
+  2. Customer clicks "Accounts"
+  3. Customer is brought to the "Accounts" page
+  4. Customer scrolls down and clicks "Cancel Membership"
+  5. Customer has completed the cancellation of service
+
+12. Title : Customer wants to update contact information
+  1. Customer signs in
+  2. Customer clicks "Account"
+  3. Customer is brought to the "Account" page
+  4. Customer clicks "Personal Information"
+  5. Customer clicks "Update Contact Information"
+  6. Customer inserts new contact details
+  7. Customer clicks "Save Changes" 
+
+13. Title: Customer is stuck exiting the parking garage due to gate malfunction and has to report it to maintenance
+  1. Customer signs in
+  2. Customer clicks "Support"
+  3. Customer is taken to the support page
+  4. Customer clicks "Gate Malfunction"
+  5. System is overridden; the license plate and vehicle are recorded at the time of exit 
+
+14. Title: Customer wants to add a new vehicle to account
+  1. Customer signs in
+  2. Customer clicks "Accounts"
+  3. Customer is taken to the "Accounts" page
+  4. Customer clicks "Add New Vehicle"
+  5. Customer enters details of the new vehicle
+  6. Customer then clicks "Save Changes"
+
+15. Title: Customer wants to delete vehicle from account
+  1. Customer signs in
+  2. Customer clicks "Accounts"
+  3. Customer is taken to the "Accounts" page
+  4. Customer clicks "Remove Vehicle"
+  5. Customer chooses which vehicle to remove from the account
+  6. Customer clicks "Save Changes"
+
+
+
