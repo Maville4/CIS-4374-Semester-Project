@@ -10,7 +10,7 @@ Date: 09.07.2026
 1.2 The scope of this project is to successfully integrate a system for both customers and workers to be able to more efficiently navigate the parking garage. What is out of scope is doing major structural upgrades, which would take too long to complete and are out of the client's budget. 
 
 2. Overall Description 
-  Users: Customers of the shopping center, people who work near the parking garage, gas vehicle users, electric vehicle users, and employees who oversee the business. 
+  Users: Customers of the shopping center, people who work near the parking garage, gas vehicle users, electric vehicle users, and employees who oversee the business, Mobile app users, and third-party payment providers
 
 System Environment: Mobile app, Website, and Kiosks 
 
