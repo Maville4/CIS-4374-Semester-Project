@@ -39,76 +39,98 @@ NFR3: System must have an uptime of 99.99%
   2. Parking spot is added to cart
   3. Customer is sent to the checkout page 
   4. Customer completes purchase.
+Postcondition: Customer successfully reserved a parking space
 
 2. Title: Customer signs up for email updates
+Precondition: Customer has to have the mobile app installed
   1. Customer signs in
   2. Customer clicks "Account"
   3. Customer clicks "Email Preferences" 
   4. Customer agrees to receive email updates 
+Postcondition: Customer has turned on the option to receive emails
 
 3. Title: Customer Resets Password
+Precondition: Customer has to have the mobile app installed
   1. Customer clicks "Forgot Password"
   2. Customer fills out email 
   3. Customer inserts old and new password
   4. Customer confirms new password
+Postcondition: Customer successfully changed their password
 
 4. Title: Customer inserts new payment method
+Precondition: Customer has to have the mobile app installed
   1. Customer signs in
   2. Customer clicks "Account"
   3. Customer clicks "Add new payment method"
   4. Customer fills out new payment details
   5. Customer clicks "Save" 
+Postcondition: Customer has added a new payment method to their account
 
 5. Title: Customer deletes old payment method
+Precondition: Customer has to have the mobile app installed
   1. Customer signs in
   2. Customer clicks "Account"
   3. Customer clicks "Remove payment method"
   4. Customer clicks "Save"
+Postcondition: Customer has successfully removed their old payment details
 
 6. Title: Adding time to reservation from app
+Precondition: Customer has to have the mobile app installed
   1. Customer signs in
   2. Customer clicks "Reservations"
   3. Customer clicks on their current reservation
   4. Customer clicks "Add Time"
   5. Customer is taken to the checkout page
   6. Customer completes purchase
+Postcondition: Customer has added time to their reservation
 
 7. Title: Customer is checking out via Kiosk
+Precondition: Customer has a ticket from when first arriving on premises
   1. Customer walks up already with ticket in hand
   2. Customer inserts ticket
   3. Kiosk displays purchase amount with time, location, and date
   4. Customer presents payment method
   5. Customer completes purchase 
+Postcondition: Customer has paid for their parking and can exit the garage
 
 8. Title: Customer wants to see available spaces for reservation
+Precondition: Customer has to have the mobile app installed
   1. Customer signs in
   2. Customer clicks "Start Reservation"
   3. Customer is presented with all parking spots available in green and unavailable in red on a map
+Postcondition: Customer can see what spaces are available before even arriving at the parking garage. 
 
-9. Title: Employee wants to check reports for the month
+Title: Employee wants to check reports for the month
+Precondition: Employee has to have access to company records
   1. Employee signs in with their company ID and password
   2. Employee clicks "Reports"
   3. Employee is brought to the reports page
   4. Employee clicks "Filter"
   5. Employee clicks on "Monthly" 
   6. Reports for that month are filtered for the employee to review
+Postcondition: Employee successfully retrieves reports for the month
 
 10. Title: Customer wants to purchase monthly pass
+Precondition: Customer has to have an account already established
   1. Customer signs in
   2. Customer clicks "Account"
   3. Customer is then brought to the "Accounts" page
   4. Customer clicks "Purchase Monthly Pass"
   5. Customer is brought to the checkout page
   6. Customer completes purchase 
+Postcondition: Customer successfully purchases monthly plan
 
 11. Title: Customer wants to cancel monthly pass
+Precondition: Customer has to have an account already established
   1. Customer signs in
   2. Customer clicks "Accounts"
   3. Customer is brought to the "Accounts" page
   4. Customer scrolls down and clicks "Cancel Membership"
   5. Customer has completed the cancellation of service
+Postcondition: Customer was able to cancel their service 
 
 12. Title : Customer wants to update contact information
+Precondition: Customer has to have an account already established
   1. Customer signs in
   2. Customer clicks "Account"
   3. Customer is brought to the "Account" page
@@ -116,29 +138,36 @@ NFR3: System must have an uptime of 99.99%
   5. Customer clicks "Update Contact Information"
   6. Customer inserts new contact details
   7. Customer clicks "Save Changes" 
+Postcondition: Customer was able to update their contact information
 
 13. Title: Customer is stuck exiting the parking garage due to gate malfunction and has to report it to maintenance
+Precondition: Customer has already paid for parking through app or kiosk
   1. Customer signs in
   2. Customer clicks "Support"
   3. Customer is taken to the support page
   4. Customer clicks "Gate Malfunction"
   5. System is overridden; the license plate and vehicle are recorded at the time of exit 
+Postcondition: Customer was able to exit the parking garage
 
 14. Title: Customer wants to add a new vehicle to account
+Precondition: Customer has to have an account already established
   1. Customer signs in
   2. Customer clicks "Accounts"
   3. Customer is taken to the "Accounts" page
   4. Customer clicks "Add New Vehicle"
   5. Customer enters details of the new vehicle
   6. Customer then clicks "Save Changes"
+Postcondition: Customer has successfully added another vehicle to their account
 
 15. Title: Customer wants to delete vehicle from account
+Precondition: Customer has to have an account already established
   1. Customer signs in
   2. Customer clicks "Accounts"
   3. Customer is taken to the "Accounts" page
   4. Customer clicks "Remove Vehicle"
   5. Customer chooses which vehicle to remove from the account
   6. Customer clicks "Save Changes"
+Postcondition: Customer successfully removed a vehicle from their account
 
 
 
