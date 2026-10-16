@@ -175,6 +175,7 @@ WBS Parking App Structure
   1.1 Homepage
       - Navigation 
       - Authentication Screens (login, sign up, forgot password)
+      - Add User
   1.2 Parking spot search 
       - Interactive Map
       - Booking Panel
@@ -186,6 +187,7 @@ WBS Parking App Structure
       - Add Vehicle 
       - Remove Vehicle 
       - Change Vehicle Details 
+      - Session Management 
   2.2 Authorization
       - 2-factor authorization with authenticator app
   2.3 Garage Monitoring 
@@ -200,10 +202,23 @@ WBS Parking App Structure
       - Google Pay integration
       - Cash Payment integration
       - Debit/Credit Card machine integration
+  2.5 Emergency Power
+  2.6 Occupancy Counter
+  2.7 Vehicle Blacklist
+  2.8 Push Notifications 
+  2.9 Confirmation Number Generator
+  2.10 Location Enabled 
+  2.11 Micro-Transaction
+  2.12 Backup Internet 
 3. Reporting  
   3.1 Export Financial Reports 
   3.2 Export graphs for management review 
   3.3 Export incident reports 
+  3.4 Revenue Reports
+  3.5 Transaction Log
+  3.6 Customer Service Recorded 
+  3.7 Cancellation Rates Reports
+  3.8 Parking Hotspots 
 
 
 Jira Board has been completed. The link to Jira board has been sent to the UH email. Screenshots uploaded to the repository. 
@@ -215,6 +230,11 @@ A cashflow plan has been created
 A RACI Matrix has been created to accompany the roles for the project. 
 All have been uploaded to repository located in Homework 5 Doc. 
 
+
+Roles have been updated - Space City Tech replaced by Bayou City Tech due to poor work quality.
+Timeline and Gantt Charts will still be the same, no changes made. 
+RACI, cost, and Resource plan all stay the same as well. 
+Jira Board has been updated with new set of completed tasks. 
 
       
 
